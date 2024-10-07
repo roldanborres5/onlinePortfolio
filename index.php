@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+<body class="body">
+    <section id="home">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand p-2 border border-2 text-light rounded-2" href="#home" id="logo">RB</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" aria-current="page" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#contact">Conctacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section><br>
+    <section class="sec-body">
+        <div class="container d-flex">
+            <div class="container opening  mt-4">
+                <h1>Hi, I'm Roldan. <br> A Web-based Developer.</h1>
+                <h1>Currently Living in Philippines.</h1>
+                <h4>Coding Dreams One Line of Code at a Time.</h4>
+            </div>
+        </div><br>
+        <div class="container text-center mt-2">
+            <p class="border border-1 rounded-2 text-white" style="background-color: rgba(95, 95, 95, 0.5); font-size: 18px;">
+                My name is Roldan D. Borres Jr., and I'm 23 years old. 
+                <br>I'm currently employed with a local healthcare facility as a web developer. 
+            </p>
+        </div>
+        <div class="container text-center mt-2 ">
+            <a href="#about"><button class="btn text-light border-1 mb-2" id="learn">Learn More ▼</button></a>
+        </div>
+    </section><br><br><br><br><br><br><br><br>
+    <section class="about" id="about">
+        <h1 class="text-center">ABOUT ME</h1>
+        <div class="container">
+            <div class="container text-center responsive">
+                <img src="assets/images/prog-pic.png" alt="img" >
+            </div>
+            <div class="center-justify">
+                <p>
+                &emsp; &emsp; Hello! I'm Roldan D. Borres Jr. a Full Stack Web Developer, new to the industry but eager to make my mark. I take great satisfaction in my ability on being efficient and have a knack for managing my time effectively to ensure that projects are completed on schedule.
+                <br><br>&emsp; &emsp; Despite being new to the field, I have a solid foundation in both front-end and back-end technologies, and I've got experience in a variety of programming languages (HTML, CSS, JavaScript, PHP, SQL, etc...). I'm always eager to learn and adapt to new technologies and trends in the industry.
+                <br><br>&emsp; &emsp; I believe that adaptability is key in this ever-evolving field, and I'm not afraid to step out of my comfort zone to tackle unfamiliar problems or learn new skills. I'm flexible in my approach to work, and I'm always ready to adjust my strategies based on project requirements.
+                <br><br>&emsp; &emsp; I'm excited to bring my skills and passion to where I can contribute to creating impactful web solutions. Let's connect!
+                </p>
+            </div>
+        </div>
+        <div style="background-color: rgba(213, 247, 230, 1);" class="d-flex justify-content-around center-justify rounded">
+            <img src="assets/images/html.png" alt="img">
+            <img src="assets/images/css.png" alt="img" >
+            <img src="assets/images/boostrap.png" alt="img">
+            <img src="assets/images/php.png" alt="img">
+            <img src="assets/images/sql.png" alt="img">
+        </div>
+        <div class="contianer text-center mt-4 d-flex justify-content-center resume">
+            <button class="btn border text-light" id="showModal">Resume</button>
+            <a href="assets/file/BORRES, ROLDAN RESUME.pdf" class="nav-link ms-3" download="BORRES, ROLDAN RESUME.pdf"><button class="btn border text-light" > Download CV</button></a>
+        </div>
+        <!-- Modal for displaying full-size image -->
+        <div class="modal" id="myModal">
+            <div class="modal-content">
+                <img id="expandedImage" src="" alt="Expanded Image">
+            </div>
+        </div>
+    </section><br><br><br>
+    <hr>
+    <section class="footer d-flex flex-column" id="contact">
+        <div class="container text-center">
+            <h1>Interested?</h1>
+            <h4>Let's talk!</h4>
+        </div>
+        <div class="container d-flex justify-content-end">
+            <a href="#home"><button class="btn btn-sm border"><img src="assets/images/up.png" alt="img" width="50%"></button></a>
+        </div>
+        <div class="d-flex flex-column" >
+            <div class="container text-center text-dark d-flex justify-content-around" style="margin-left: 80px;">
+                <div>
+                    <img src="assets/images/gmail.png" alt="img"> roldanborresjr@gmail.com
+                </div>
+                <div>
+                    <a href="https://github.com/roldanborres5"><img src="assets/images/git.png" alt="img" ></a>
+                    <a href="https://www.linkedin.com/in/roldan-borres-55943b271/"><img src="assets/images/link.png" alt="img" ></a>
+                    <img src="assets/images/fb.png" alt="img" >
+                </div>
+                <div>
+                    <img src="assets/images/copy.png" alt="img" style="width: 30px; margin-left: 85px;"> 2024 Roldan Borres
+                </div>
+            </div>
+        </div>
+
+    </section>
+</body>
+</html>
+
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/script.js"></script>
